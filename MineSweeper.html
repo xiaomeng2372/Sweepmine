@@ -4,19 +4,23 @@
 <title>Changhao's MineSweeper</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="m.js"> </script>
+<link rel="stylesheet" href="style.css">
+<h1>MineSweeper</h1>
 </head>
+<center>
 <div id='Options'>
   Enter the number of row: <input type="number" id='rNum'name="rowNumber" value="8" max="30"><br>
   Enter the number of column: <input type="number" id= 'cNum'name="columnNumber" value="8" max="40"><br>
   Enter the number of mines: <input type =“number” id = 'mm'name="nbMines" value="10">
 </div>
-
+</center>
+<center>
 <div id='Board'>
 Number of Mines: <div id='bombNumber'>010</div>
 Timer: <div id='timer'>0</div>
 <div id='table'> </div>
 <button onclick="start();">Start the game!</button>
 </div>
-
+</center>
 
 </html>

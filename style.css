@@ -1,0 +1,11 @@
+
+
+input[type="button"] {
+    vertical-align:left;
+    height: 53
+    width: 53
+}
+
+.reveal{
+  background: grey;
+}

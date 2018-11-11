@@ -29,8 +29,8 @@ function start(){
   explore = cNum * rNum;
   //alert(explore);
   //alert(explore);
-  $('#Board').width(cNum*100);
-    $('#Board').height(rNum * 100 + 100);
+  $('#Board').width(cNum*53);
+    $('#Board').height(rNum * 53 + 53);
     $('#bombNumber').html(mm);
 
 //Generate a table
